@@ -6,14 +6,14 @@ int main(){
     int contador = 0;
  
     //movimento da torre
-    printf("Torre :");
+    printf("Torre :\n");
     for (i = 0; i <= 5; i++) 
     {
         printf("Direita\n");
     }
  
     //movimento do bispo
-    printf("Bispo :");
+    printf("Bispo :\n");
     while (contador < 5) 
     {
         printf("Cima\n");
@@ -24,7 +24,7 @@ int main(){
     contador = 0; 
  
     //movimento da rainha
-    printf("Rainha :");
+    printf("Rainha :\n");
     do 
     {
         printf("Esquerda\n");
